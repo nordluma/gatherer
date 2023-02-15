@@ -1,0 +1,40 @@
+{
+	"main": "dist/app.js",
+	"scripts": {
+		"dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+		"serve": "nodemon app.ts",
+		"start": "node .",
+		"test": "echo \"Error: no test spcified\" && exit 1"
+	},
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.0",
+		"lodash": "^4.17.21",
+		"mongoose": "^6.9.1",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"@types/bcrypt": "^5.0.0",
+		"@types/config": "^3.3.0",
+		"@types/express": "^4.17.17",
+		"@types/jsonwebtoken": "^9.0.1",
+		"@types/lodash": "^4.14.191",
+		"@types/morgan": "^1.9.4",
+		"@types/node": "^18.13.0",
+		"config": "^3.3.9",
+		"dayjs": "^1.11.7",
+		"nodemon": "^2.0.20",
+		"pino": "^8.10.0",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^4.9.5",
+		"zod": "^3.20.6"
+	},
+	"name": "gatherer",
+	"version": "1.0.0",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}
